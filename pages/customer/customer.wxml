@@ -43,7 +43,7 @@
     <view class="contact_item bg1 flex">
         <image src="/images/contact_icon3.png"></image>
     </view>
-    <view class="contact_item bg1 flex">
+    <view class="contact_item bg1 flex" bindtap="intoPath" data-path="/pages/shopping/shopping">
         <image src="/images/contact_icon4.png"></image>
     </view>
 </view>

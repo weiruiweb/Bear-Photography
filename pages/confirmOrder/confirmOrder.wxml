@@ -1,40 +1,32 @@
 <!--index3.wxml-->
-<view class="manage w710 flex">
-    <view class="manage_cont">
-        <view class="user_address flex color3">
-            <view class="address_left flex">
-                <image src="/images/user_icon1.png"></image>李雷
-            </view>
-            <view class="address_right">
-                1888888888888
-            </view>
-        </view>
-        <view class="address_infor flex">
-            <view class="infor_left flex"><image src="/images/user_icon1.png"></image></view>
-            <view class="infor_right avoidOverflow">陕西省西安市高新大都荟陕西省西安市高新大都荟陕西省西安市高新大都荟</view>
-        </view>
-    </view>
-</view>
 <view class="product">
-    <view class="product_box w710 flexRowBetween">
+    <view class="product_box w690 flexRowBetween">
         <view class="product_left">
-            <image src="/images/index1.png"></image>
+            <image src="/images/index.png"></image>
         </view>
         <view class="product_right">
             <view class="product_detail">
                 <view class="font32 color3 product_top">空间+导示</view>
-                <view class="font24 color9">2018-09-09</view>
+                <view class="font24 color9"><text>风格</text><text>尺寸</text></view>
                 <view class="font30 color6 product_price flex">¥189</view>
             </view>
         </view>
     </view>
-</view>
-<view class="choose_way w710 flex">
-    <view class="way_left font28 flex" data-id="0" bindtap="choose">
-        <image src="{{currentId == 0?'/images/select_a.png':'/images/select.png'}}"></image>快递配送
+    <view class="w690" style="border-bottom:solid 1px #e0e0e0;padding-bottom:20rpx;">
+        <view class="choose_number flexRowBetween">
+            <view class="number_txt color2 font26">
+                购买数量
+            </view>
+            <view class="edit_number flexRowBetween">
+                <view class="minus" style="line-height:45rpx;border-right: solid 1px #e5e5e5;">-</view>
+                <view class="number">1</view>
+                <view class="add">+</view>
+            </view>
+        </view>
     </view>
-    <view class="way_left font28 flex"  data-id="1" bindtap="choose">
-        <image src="{{currentId == 1?'/images/select_a.png':'/images/select.png'}}"></image>上门自提
+    <view class="w690 message flex">
+        <view class="message_left font26 color2">留言备注</view>
+        <view class="message_right font24  color2"><input placeholder="留言备注"></input></view>
     </view>
 </view>
 <view class="confirm_btn flex font30">

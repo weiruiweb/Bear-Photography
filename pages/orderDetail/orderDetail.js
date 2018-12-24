@@ -11,16 +11,8 @@ Page({
   },
   
   onLoad: function () {
-   this.setData({
-      fonts:app.globalData.font
-    })
-  },
-  userInfo:function(){
-    wx.navigateTo({
-      url:'/pages/userInfo/userInfo'
-    })
-  },
   
+  },
   select_this:function(e){
     var current= e.currentTarget.dataset.current;
     this.setData({
@@ -34,6 +26,9 @@ Page({
     })
   },
   close:function(){
+    wx.navigateTo({
+      url:'/pages/confirmOrder/confirmOrder'
+    })
     this.setData({
       isShow:false
     })
@@ -44,11 +39,4 @@ Page({
       chooseType:chooseType
     })
   },
-  chooseType1:function(e){
-    var chooseType1 = e.currentTarget.dataset.type;
-    this.setData({
-      chooseType1:chooseType1
-    })
-
-  }
 })

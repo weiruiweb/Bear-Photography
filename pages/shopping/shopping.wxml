@@ -75,23 +75,23 @@
     <view class="goShopping" bindtap="intoPathRedi" data-path="/pages/mall/Sort/sort">去逛逛</view>
 </view>
 <view class="navbar">
-    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index/index">
+    <view class="navbar_item"  bindtap="intoPathRedirect" data-path="/pages/index/index">
         <view class="nav_img">
           <image src="/images/navbar1.png"></image>
         </view>
         <view class="text">首页</view>
     </view>
-    <view class="navbar_item">
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/customer/customer">
         <view class="nav_img">
-           <image src="/images/navbar2-a.png"></image>
+           <image src="/images/navbar2.png"></image>
         </view>
-        <view class="text this-text">购物车</view>
+        <view class="text">用户</view>
     </view>
-    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/partner/partner">
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/product/product">
         <view class="nav_img">
            <image src="/images/navbar3.png"></image>
         </view>
-        <view class="text">合伙人</view>
+        <view class="text">商品</view>
     </view>
     <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/user/user">
         <view class="nav_img">

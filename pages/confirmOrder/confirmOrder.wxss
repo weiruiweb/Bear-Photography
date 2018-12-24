@@ -113,3 +113,54 @@
 	width: 30%;
 	height:100%;
 }
+.choose_number{
+	align-items:center;
+}
+
+.type_right{
+	flex-wrap:wrap;
+	padding-bottom:30rpx;
+}
+.edit_number{
+	width:166rpx;
+	height:50rpx;
+	line-height:52rpx;
+	border:solid 1px #e5e5e5;
+	font-size:20rpx;
+}
+.edit_number .minus,.edit_number .add{
+	width:50rpx;
+	height:100%;
+	text-align:center;
+	color:#aeaeae;
+	font-size:40rpx;
+	background:#e8e9e9;
+}
+.number{
+	width:72rpx;
+	text-align:center;
+	color:#878787;
+	border-right:solid 1px #e5e5e5; 
+}
+.message{
+	width:100%;
+	height:88rpx;
+}
+.message_left{
+	width:20%;
+	height:88rpx;
+	line-height:88rpx;
+}
+.message_right{
+	width:80%;
+	height:88rpx;
+	line-height:88rpx;
+}
+.message_right input{
+	width:100%;
+	height:88rpx;
+	line-height:88rpx;
+}
+.product_right text{
+	margin-right:10rpx;
+}

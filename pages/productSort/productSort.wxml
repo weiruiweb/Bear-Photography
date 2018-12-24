@@ -25,37 +25,7 @@
 </view>
 <view class="w690" style="margin-top:30rpx;">
    <view class="recommended flexRowBetween">
-      <view class="recommend_left bg1">
-          <view class="recommend_img"><image src="/images/index.png"></image></view>
-          <view class="product_name font28 color2">名称</view>
-          <view class="product_buy flex">
-            <view class="buy_left font26">¥666.00</view>
-            <view class="buy_right">
-              <view class="buy_btn submit_info font24">购买</view>
-            </view>
-          </view>
-      </view>
-      <view class="recommend_left bg1">
-          <view class="recommend_img"><image src="/images/index.png"></image></view>
-          <view class="product_name font28 color2">名称</view>
-          <view class="product_buy flex">
-            <view class="buy_left font26">¥666.00</view>
-            <view class="buy_right">
-              <view class="buy_btn submit_info font24">购买</view>
-            </view>
-          </view>
-      </view>
-      <view class="recommend_left bg1">
-          <view class="recommend_img"><image src="/images/index.png"></image></view>
-          <view class="product_name font28 color2">名称</view>
-          <view class="product_buy flex">
-            <view class="buy_left font26">¥666.00</view>
-            <view class="buy_right">
-              <view class="buy_btn submit_info font24">购买</view>
-            </view>
-          </view>
-      </view>
-      <view class="recommend_left bg1">
+      <view class="recommend_left bg1" bindtap="intoPath" data-path="/pages/orderDetail/orderDetail">
           <view class="recommend_img"><image src="/images/index.png"></image></view>
           <view class="product_name font28 color2">名称</view>
           <view class="product_buy flex">

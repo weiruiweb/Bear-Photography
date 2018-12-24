@@ -54,11 +54,11 @@
     </view>
   </view>
   <view class="recommended flexRowBetween">
-      <view class="recommend_left bg1" bindtap="intoPath" data-path="/pages/orderDetail/orderDetail">
+      <view class="recommend_left bg1" bindtap="intoPath" data-path="/pages/customerDetail/customerDetail">
           <view class="recommend_img"><image src="/images/index.png"></image></view>
           <view class="product_name font28 color2">名称</view>
       </view>
-      <view class="recommend_left bg1" bindtap="intoPath" data-path="/pages/orderDetail/orderDetail">
+      <view class="recommend_left bg1" bindtap="intoPath" data-path="/pages/customerDetail/customerDetail">
           <view class="recommend_img"><image src="/images/index.png"></image></view>
           <view class="product_name font28 color2">名称</view>
       </view>
@@ -76,11 +76,11 @@
     </view>
   </view>
   <view class="recommended flexRowBetween">
-      <view class="recommend_left bg1" bindtap="intoPath" data-path="/pages/orderDetail/orderDetail">
+      <view class="recommend_left bg1" bindtap="intoPath" data-path="/pages/customerDetail/customerDetail">
           <view class="recommend_img"><image src="/images/index.png"></image></view>
           <view class="product_name font28 color2">名称</view>
       </view>
-      <view class="recommend_left bg1" bindtap="intoPath" data-path="/pages/orderDetail/orderDetail">
+      <view class="recommend_left bg1" bindtap="intoPath" data-path="/pages/customerDetail/customerDetail">
           <view class="recommend_img"><image src="/images/index.png"></image></view>
           <view class="product_name font28 color2">名称</view>
       </view>

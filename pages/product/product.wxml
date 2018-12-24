@@ -11,7 +11,7 @@
 
 <view class="menu bg1 flexRowBetween">
     <view class="menu_item" bindtap="intoPath" data-path="/pages/productSort/productSort">
-        <view class="menu_img"><image src="/images/index_icon9.png" mode="aspectFill"></image></view>
+        <view class="menu_img"><image src="/images/index_icon5.png" mode="aspectFill"></image></view>
         <view class="menu_box color2 font26">
             风格1
         </view>
@@ -69,7 +69,7 @@
     <view class="contact_item bg1 flex">
         <image src="/images/contact_icon3.png"></image>
     </view>
-    <view class="contact_item bg1 flex">
+    <view class="contact_item bg1 flex" bindtap="intoPath" data-path="/pages/shopping/shopping">
         <image src="/images/contact_icon4.png"></image>
     </view>
 </view>
