@@ -1,0 +1,145 @@
+<!--index.wxml-->
+<swiper  class="swiper-block"  previous-margin="90rpx" next-margin="90rpx" current="0"  autoplay="{{autoplay}}"
+        interval="{{interval}}" duration="{{duration}}" bindchange="swiperChange" circular="{{circular}}">
+
+    <block wx:for="{{background}}" wx:index="{{index}}">
+        <swiper-item class="swiper-item">
+            <image mode="aspectFill" src="{{item}}" class="slide-image {{swiperIndex == index ? 'active' : ''}}"/>
+        </swiper-item>
+    </block>
+</swiper>
+<view class="w690 bg1">
+  <view class="menu flexRowBetween">
+      <view class="menu_item" bindtap="intoPath" data-path="/pages/sort/sort">
+          <image src="/images/index_icon1.png" mode="aspectFill"></image>
+          <view class="menu_box color1 font26">
+              古装照
+          </view>
+      </view>
+      <view class="menu_item" bindtap="intoPath" data-path="/pages/sort/sort">
+          <image src="/images/index_icon2.png" mode="aspectFill"></image>
+          <view class="menu_box color1 font26">
+              民国照
+          </view>
+      </view>
+      <view class="menu_item" bindtap="intoPath" data-path="/pages/sort/sort">
+          <image src="/images/index_icon3.png" mode="aspectFill"></image>
+          <view class="menu_box color1 font26">
+              现代照
+          </view>
+      </view>
+      <view class="menu_item" bindtap="intoPath" data-path="/pages/sort/sort">
+          <image src="/images/index_icon4.png" mode="aspectFill"></image>
+          <view class="menu_box color1 font26">
+              百日照
+          </view>
+      </view>
+      <view class="menu_item" bindtap="intoPath" data-path="/pages/sort/sort">
+          <image src="/images/index_icon9.png" mode="aspectFill"></image>
+          <view class="menu_box color1 font26">
+              全部
+          </view>
+      </view>
+  </view>
+</view>
+<view class="w690">
+  <view class="recommended_tlt flex">
+    <view class="mall_tlt">
+        <image src="/images/title.png"></image>
+        <view  class="mall_tlt_txt font28 color2">精彩推荐</view>
+    </view>
+    <view class="more flex">
+        <text class="font22" bindtap="intoPath" data-path="/pages/sort/sort">更多</text>
+        <image src="/images/next_page.jpg"></image>
+    </view>
+  </view>
+  <view class="recommended flexRowBetween">
+      <view class="recommend_left bg1" bindtap="intoPath" data-path="/pages/orderDetail/orderDetail">
+          <view class="recommend_img"><image src="/images/index.png"></image></view>
+          <view class="product_name font28 color2">名称</view>
+      </view>
+      <view class="recommend_left bg1" bindtap="intoPath" data-path="/pages/orderDetail/orderDetail">
+          <view class="recommend_img"><image src="/images/index.png"></image></view>
+          <view class="product_name font28 color2">名称</view>
+      </view>
+  </view>
+</view>
+<view class="w690">
+  <view class="recommended_tlt flex">
+    <view class="mall_tlt">
+        <image src="/images/title.png"></image>
+        <view  class="mall_tlt_txt font28 color2">活动介绍</view>
+    </view>
+    <view class="more flex">
+        <text class="font22" bindtap="intoPath" data-path="/pages/sort/sort">更多</text>
+        <image src="/images/next_page.jpg"></image>
+    </view>
+  </view>
+  <view class="recommended flexRowBetween">
+      <view class="recommend_left bg1" bindtap="intoPath" data-path="/pages/orderDetail/orderDetail">
+          <view class="recommend_img"><image src="/images/index.png"></image></view>
+          <view class="product_name font28 color2">名称</view>
+      </view>
+      <view class="recommend_left bg1" bindtap="intoPath" data-path="/pages/orderDetail/orderDetail">
+          <view class="recommend_img"><image src="/images/index.png"></image></view>
+          <view class="product_name font28 color2">名称</view>
+      </view>
+  </view>
+</view>
+<view class="w690">
+  <view class="recommended_tlt flex">
+    <view class="mall_tlt">
+        <image src="/images/title.png"></image>
+        <view  class="mall_tlt_txt font28 color2">有关店面</view>
+    </view>
+  </view>
+  <view class="store">
+      <view class="store_img">
+          <image src="/images/index.png"></image>
+      </view>
+      <view class="font26 color2">
+          内容内容内容内容内容内容内容内容内容内容内容内容内容 内容内容内容内容内容内容内容内容内容内容内容内容内容 内容内容内容内容内
+      </view>
+  </view>
+</view>
+<view class="contact">
+    <view class="contact_item bg1 flex">
+        <image src="/images/contact_icon1.png"></image>
+    </view>
+    <view class="contact_item bg1 flex">
+        <image src="/images/contact_icon2.png"></image>
+    </view>
+    <view class="contact_item bg1 flex">
+        <image src="/images/contact_icon3.png"></image>
+    </view>
+    <view class="contact_item bg1 flex" bindtap="intoPath" data-path="/pages/shopping/shopping">
+        <image src="/images/contact_icon4.png"></image>
+    </view>
+</view>
+<view class="space_bottom"></view>
+<view class="navbar">
+    <view class="navbar_item">
+        <view class="nav_img">
+          <image src="/images/navbar1-a.png"></image>
+        </view>
+        <view class="text this-text">首页</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/customer/customer">
+        <view class="nav_img">
+           <image src="/images/navbar2.png"></image>
+        </view>
+        <view class="text">用户</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/product/product">
+        <view class="nav_img">
+           <image src="/images/navbar3.png"></image>
+        </view>
+        <view class="text">商品</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/user/user">
+        <view class="nav_img">
+            <image src="/images/navbar4.png"></image>
+        </view>
+        <view class="text">我的</view>
+    </view>
+</view>

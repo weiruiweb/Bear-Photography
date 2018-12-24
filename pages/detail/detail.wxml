@@ -1,0 +1,12 @@
+<!--login.wxml-->
+<view class="w690 bg1" style="padding-bottom:20rpx;">
+   <view class="notice bg1">
+     <view class="notice_title font34 color2">
+        标题标题标题标题标题
+     </view>
+     <view class="notice_cont">
+       <view class="font26 color4">内容内容内容内容内容内容内容内容内容让你让你 内容内容内容内容内容内容内容内容内容让你让你 内容内容内容让你你。</view>
+       <image src="/images/index.png"></image>
+     </view>
+   </view>
+</view>

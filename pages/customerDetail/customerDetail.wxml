@@ -1,0 +1,28 @@
+<!--index3.wxml-->
+<view class="user_banner flex">
+    <view class="user_box flex">
+        <view class="banner_left flex">
+            <view class="" style="text-align:center;width:100%;">
+                <view class="user_img">
+                  <open-data type="userAvatarUrl"></open-data>
+                </view>
+            </view>
+        </view>
+        <view class="banner_right font30 color2">
+            小兵阿黄
+        </view>
+    </view>
+</view>
+<view class="w690 font26 color2" style="height:84rpx;line-height:84rpx;border-bottom:solid 1px #d6d6d6;">
+    标题标题标题标题标题
+</view>
+<view class="w690" style="border-bottom:solid 1px #d6d6d6;">
+    <view class="flex1" style="margin:30rpx 0">
+        <view class="flex_left font30 color2">使用条件:</view>
+        <view class="flex_right font26 color4">使用条件使用条件使用条件使用条件使用条件使用条件使用条件使用条件使用条件使用条件使用条件使用条件使用条件使用条件使用条件使用条件</view>
+    </view>
+</view>
+<view class="w690">
+    <view class="img_show"><image src="/images/index.png"></image></view>
+
+</view>

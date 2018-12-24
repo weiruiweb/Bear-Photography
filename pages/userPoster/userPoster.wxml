@@ -1,0 +1,6 @@
+<!--user.wxml-->
+<view class="poster">
+  <view class="poster_img">
+    <image src="/images/poster.jpg"></image>
+  </view>
+</view>

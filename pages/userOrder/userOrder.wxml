@@ -1,0 +1,43 @@
+<!--index3.wxml-->
+<view class="tab font30 flexRowBetween color6">
+    <view class="tab_item " data-id="0" bindtap="tab">
+        <text class="{{currentId == 0?'tab_this':''}}">全部</text>
+    </view>
+    <view class="tab_item " data-id="1" bindtap="tab">
+        <text class="{{currentId == 1?'tab_this':''}}">待付款</text>
+    </view>
+    <view class="tab_item" data-id="2" bindtap="tab">
+        <text class="{{currentId == 2?'tab_this':''}}">待使用</text>
+    </view>
+    <view class="tab_item" data-id="3" bindtap="tab">
+        <text class="{{currentId == 3?'tab_this':''}}">待评价</text>
+    </view>
+</view>
+<view class="product">
+    <view class="order_tlt w690 flexRowBetween ">
+        <view class="tlt_left">交易时间：2018-09-20</view>
+        <view class="tlt_left tlt_right color5">待付款</view>
+    </view>
+    <view class="product_box w690 flexRowBetween">
+        <view class="product_left">
+            <image src="/images/index.png"></image>
+        </view>
+        <view class="product_right flex">
+            <view class="product_detail">
+                <view class="font32 color3 product_top">空间+导示</view>
+                <view class="font24 color9">2018-09-09</view>
+                <view class="flexRowBetween" style="height:40%;">
+                    <view class="font28 color4 flex">x1</view>
+                    <view class="font26 color5 product_price flex">¥189</view>
+                </view>
+            </view>
+        </view>
+        
+    </view>
+    <view class="w690">
+        <view class="order_handle flexRowBetween">
+             <view class="submit_info font26 color2">查看物流</view>
+            <view class="submit_info font26 color2" bindtap="intoPath" data-path="/pages/userComment/userComment">去评价</view>
+        </view>
+    </view>
+</view>

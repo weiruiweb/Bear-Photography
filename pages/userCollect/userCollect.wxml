@@ -1,0 +1,33 @@
+<!--index3.wxml-->
+<view class="product bg1">
+    <view class="product_box w690 flexRowBetween">
+        <view class="product_left">
+            <image src="/images/index.png"></image>
+        </view>
+        <view class="product_right flex">
+            <view class="product_detail">
+                <view class="font32 color3 product_top avoidOverflow">空间空间空间空间空间空间空间</view>
+                <view class="font26 color9 avoidOverflow">描述描描述描述描述描述描述描述描述描述述描述描述描述描述描述描述</view>
+                <view class="font26 color5" style="height:40%;line-height:70rpx;">
+                   ¥888
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="product bg1">
+    <view class="product_box w690 flexRowBetween">
+        <view class="product_left">
+            <image src="/images/index.png"></image>
+        </view>
+        <view class="product_right flex">
+            <view class="product_detail">
+                <view class="font32 color3 product_top avoidOverflow">空间空间空间空间空间空间空间</view>
+                <view class="font26 color9 avoidOverflow">描述描描述描述描述描述描述描述描述描述述描述描述描述描述描述描述</view>
+                <view class="font26 color5" style="height:40%;line-height:70rpx;">
+                   ¥888
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

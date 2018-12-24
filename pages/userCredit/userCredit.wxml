@@ -1,0 +1,43 @@
+<!--index3.wxml-->
+<view class="date font30 flex bg1">
+   <view class="date_left flexCenter">
+       <text class="color2 font30">当前积分:</text>
+       <text class="color font30">3000</text>
+   </view>
+   <view class="date_left flexCenter" >
+       <text class="color2 font30">分销积分:</text>
+       <text class="color font30">3000</text>
+   </view>
+</view>
+<view class="credit_cont">
+    <view class="credit_list bg1">
+        <view class="credit_item">
+            <view class="credit_left">
+                <view class="credit_reson font28">
+                    分享商品
+                </view>
+                <view class="credit_dates font24 color9">
+                    0000-0-0
+                </view>
+            </view>
+            <view class="credit_right font28">
+                -700
+            </view>
+        </view>
+    </view>
+    <view class="credit_list bg1">
+        <view class="credit_item">
+            <view class="credit_left">
+                <view class="credit_reson font28">
+                    分享商品
+                </view>
+                <view class="credit_dates font24 color9">
+                    0000-0-0
+                </view>
+            </view>
+            <view class="credit_right font28 color">
+                +70
+            </view>
+        </view>
+    </view>
+</view>

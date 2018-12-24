@@ -1,0 +1,33 @@
+<!--login.wxml-->
+<view class="w690">
+  <view class="submit" >
+    <view class="input_list1 font28 flex">
+        <view class="input_before1 color2">内容:</view>
+        <input class="color2" placeholder=""></input>
+      </view>
+      <view class="input_list1 font28 flex  w690">
+        <view  class="input_before1 color2">类别:</view>
+        <picker  class="flex"  value="{{index}}" range="{{position}}" bindchange="position"  style="width:40%;background:#f6f6f6;border-radius:20rpx;">
+        <view style="width:200rpx;height:60rpx;line-height:60rpx;padding-left:20rpx;" class="flex">
+          <view class="picker" style="width:100%;height:100%;">{{position[index]}} </view>
+          <view class="next_page" style="width:4%;text-align:right;" >
+            <view class="user_icon1">
+              <image src="/images/up_down.png" style="margin-right:16rpx;"></image>
+            </view>
+          </view>
+        </view>
+      </picker>
+      </view>
+  </view>
+</view>
+<view class="upload w690 flexCenter" style="border-bottom:solid 1px #d6d6d6;">
+        <view class="upload_item color2 font24 ">
+          添加照片
+        </view>
+        <view class="upload_item color2 font24 upload_img">
+          <image src="/images/index_icon1.png"></image>
+        </view>
+    </view>
+<form bindsubmit="submit" report-submit="true">
+  <button form-type="submit" class="submit_info" style="width:50%;margin:180rpx auto 0 auto;height:66rpx;line-height:66rpx;border-radius:0rpx;border-radius:50rpx;">发布</button>
+</form>

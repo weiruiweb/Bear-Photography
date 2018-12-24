@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/customer/customer",
+    "pages/customerUplode/customerUplode",
+    "pages/product/product",
+    "pages/productSort/productSort",
+    "pages/user/user",
+    "pages/userOrder/userOrder",
+    "pages/userComment/userComment",
+    "pages/userCredit/userCredit",
+    "pages/userNewAddress/userNewAddress",
+    "pages/userAddress/userAddress",
+    "pages/userGroup/userGroup",
+    "pages/userPoster/userPoster",
+    "pages/userCollect/userCollect",
+    "pages/sort/sort",
+    "pages/detail/detail",
+    "pages/shopping/shopping",
+    "pages/confirmOrder/confirmOrder",
+    "pages/orderDetail/orderDetail",
+    "pages/customerDetail/customerDetail"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffaa4e",
+    "navigationBarTitleText": "儿童摄影",
+    "navigationBarTextStyle": "#fff"
+  }
+}

@@ -1,0 +1,47 @@
+<!--user.wxml-->
+<view class="index_tab flexRowBetween">
+    <view class="tab_item {{currentId == 0?'this_tab':''}}" data-id="0" bindtap="changeTab">
+      一级
+    </view>
+    <view  class="tab_item {{currentId == 1?'this_tab':''}}" data-id="1"  bindtap="changeTab">
+      二级
+    </view>
+</view>
+<view class="cash" style="{{currentId == 0?'display:block':'display:none'}}">
+  <view class="p40">
+    <view class="cash_cont flexRowBetween">
+      <view class="tlt_item tlt_left">客户1</view>
+      <view class="tlt_item tlt_right"> 2016.09.08</view>
+    </view>
+  </view>
+  <view class="p40">
+    <view class="cash_cont flexRowBetween">
+      <view class="tlt_item tlt_left">客户1</view>
+      <view class="tlt_item tlt_right"> 2016.09.08</view>
+    </view>
+  </view>
+  <view class="p40">
+    <view class="cash_cont flexRowBetween">
+      <view class="tlt_item tlt_left">客户1</view>
+      <view class="tlt_item tlt_right"> 2016.09.08</view>
+    </view>
+  </view>
+</view>
+
+
+<view class="reward" style="{{currentId == 1?'display:block':'display:none'}}">
+  <view class="p40">
+    <view class="cash_cont flexRowBetween">
+      <view class="tlt_item tlt_left">200元</view>
+      <view class="tlt_item tlt_right"> 2016.09.08</view>
+    </view>
+  </view>
+</view>
+<view class="reward" style="{{currentId == 2?'display:block':'display:none'}}">
+  <view class="p40">
+    <view class="cash_cont flexRowBetween">
+      <view class="tlt_item tlt_left">200元</view>
+      <view class="tlt_item tlt_right"> 2016.09.08</view>
+    </view>
+  </view>
+</view>

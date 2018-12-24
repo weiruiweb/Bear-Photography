@@ -1,0 +1,155 @@
+<!--detail.wxml-->
+<view id="details">
+	<view class="banner bg1">
+		<image src="/images/index.png"></image>
+	</view>
+	<view class="w690 bg1" style="margin-bottom:30rpx;border-bottom:30rpx solid #f6f6f6;">
+		<view class="product_names avoidOverflow font32 color4">
+			babay 熊
+		</view>
+		<view class="color5 font28" style="height:52rpx;">¥888</view>
+	</view>
+	<view class="detail bg1">
+		<view class="detail_comment flexRowBetween">
+			<view class="detail  {{tabCurrent == 0?'detail_select':''}}" data-current="0" bindtap="select_this">
+				商品详情
+			</view>
+			<view class="comment {{tabCurrent == 1?'detail_select':''}}"  data-current="1" bindtap="select_this">
+				照片展示
+			</view>
+		</view>
+	<view class="detail_show">
+		<view id="detail" class="w690" style="{{tabCurrent == 0?'display:block':'display:none'}}">
+			<view class="detail_line flex">
+				<view class="ling-left font28 color2">标题标题</view>
+				<view class="ling-right font26 color4">内容内容内容</view>
+			</view>
+			<view class="detail_line flex">
+				<view class="ling-left font28 color2">标题</view>
+				<view class="ling-right font26 color4">内容内容内容</view>
+			</view>
+			<view class="detail_line flex">
+				<view class="ling-left font28 color2">标题</view>
+				<view class="ling-right font26 color4">内容内容内容</view>
+			</view>
+			<view class=" flex1">
+				<view class="ling-left font28 color2">标题标题</view>
+				<view class="ling-right font26 color4">内内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容容内容内容</view>
+			</view>
+		</view>
+		<view id="comment" style="{{tabCurrent == 1?'display:block':'display:none'}}">
+			<view class="w690 recommend flexRowBetween">
+		      <view class="recommend_left bg1" bindtap="intoPath" data-path="/pages/detail/detail">
+		          <view class="recommend_img"><image src="/images/index.png"></image></view>
+		          <view class="product_name font28 color2">名称</view>
+		      </view>
+		      <view class="recommend_left bg1" bindtap="intoPath" data-path="/pages/detail/detail">
+		          <view class="recommend_img"><image src="/images/index.png"></image></view>
+		          <view class="product_name font28 color2">名称</view>
+		      </view>
+		      <view class="recommend_left bg1" bindtap="intoPath" data-path="/pages/detail/detail">
+		          <view class="recommend_img"><image src="/images/index.png"></image></view>
+		          <view class="product_name font28 color2">名称</view>
+		      </view>
+		      <view class="recommend_left bg1" bindtap="intoPath" data-path="/pages/detail/detail">
+		          <view class="recommend_img"><image src="/images/index.png"></image></view>
+		          <view class="product_name font28 color2">名称</view>
+		      </view>
+		  </view>
+		</view>
+	</view>
+</view>
+<view class="{{isShow?'mask':''}}"></view>
+
+</view>
+<view id="buy">
+	<view class="buy_click">
+		<view class="buy_left flex">
+			<view class="consult collect" style="text-align:center;">
+				<image src="/images/collect.png"></image>
+				<view class="font24 color2">收藏</view>
+			</view>
+			<view class="consult" style="text-align:left;">
+				<image src="/images/shopping.png" style="margin-left:25%;"></image>
+				<view class="font24 color2">加入购物车</view>
+			</view>
+		</view>
+		<view class="buy_right">
+			<view class="go_buy bg" bindtap="goBuy">
+				立即购买
+			</view>
+		</view>
+	</view>
+</view>
+<view id="choose" class="{{isShow?'sildeIn':'slideOut'}}">
+	<view style="position:relative;height:100%;overflow:hidden;">
+		<view class="w690">
+			<view class="flexRowBetween pricity">
+				<view class="choose_pro">
+					<image src="/images/index.png"></image>
+				</view>
+				<view class="product_txt">
+					<view class="pro_name">公众号管理</view>
+					<view class="pro_type">
+						个性化定制
+					</view>
+					<view class="font28 color5" style="height:25%;">
+					￥3999
+					</view>
+					<view class="font24 color5" style="height:25%;">
+					积分：200
+					</view>
+				</view>
+				<view class="close" bindtap="close">
+				<image src="/images/close.jpg"></image>
+				</view>
+			</view>
+			
+			<view class="pro_type" style="margin-bottom:30rpx;">	
+				类型
+			</view>
+			<scroll-view scroll-Y style="height:150rpx;margin-bottom:30rpx;">
+				<view class="type_right flex">
+					<view class="pro_types">	
+						模板
+					</view>
+					<view class="pro_types">	
+						模板
+					</view>
+					<view class="pro_types">	
+						模板
+					</view>
+					<view class="pro_types">	
+						模板
+					</view>
+					<view class="pro_types">	
+						模板
+					</view>
+					<view class="pro_types">	
+						模板
+					</view>
+					<view class="pro_types">	
+						模板
+					</view>
+				</view>
+			</scroll-view>
+			<view class="choose_number flexRowBetween">
+				<view class="number_txt color2 font26">
+					购买数量
+				</view>
+				<view class="edit_number flexRowBetween">
+					<view class="minus" style="line-height:45rpx;border-right: solid 1px #e5e5e5;">-</view>
+					<view class="number">1</view>
+					<view class="add">+</view>
+				</view>
+			</view>
+		</view>
+		<view class="w690 message flex">
+			<view class="message_left font26 color2">留言备注</view>
+			<view class="message_right font24  color2"><input placeholder="留言备注"></input></view>
+		</view>
+		<button class="submit_info bg" bindtap="close" style="margin-top:69rpx;border-radius:30rpx;">确认</button>
+	</view>
+</view>
+
+

@@ -1,0 +1,124 @@
+/**index.wxss**/
+
+@import "../../wxParse/wxParse.wxss"; 
+page{
+	background:#f2f2f2;
+}
+.user_banner{
+	width:100%;
+	height:210rpx;
+}
+.user_box{
+	width:100%;
+}
+.banner_left{
+	width:31%;
+	height:100%;
+}
+.banner_right{
+	width:69%;
+	height:100%;
+}
+.user_img{
+	width:140rpx;
+	height:140rpx;
+	border-radius:50%;
+	overflow:hidden;
+	margin:0px auto;
+}
+.credit_left{
+	width:50%;
+	height:100%;
+}
+.credit_left image{
+	width:24rpx;
+	height:30rpx;
+	margin-right:10rpx;
+}
+.credit_in{
+	width:100%;
+	height:94rpx;
+}
+.in_left{
+	width:50%;
+	height:100%;
+	text-align:center;
+}
+.in_right{
+	border-left:solid 1px #fff;
+}
+.order{
+	background:#fff;}
+.user_order{
+	height:110rpx;
+	align-items:center;
+	line-height:110rpx;
+	width:100%;
+}
+.order_left{
+	align-items:center;
+	width:80%;
+}
+.order_left image{
+	width:28rpx;
+	height:32rpx;
+
+	margin-right:16rpx;
+}
+.check_order{
+	width:20%;
+	height:100%;
+	text-align:right;
+}
+.check_order image{
+	width:11rpx;
+	height:20rpx;
+	margin-left:8rpx;
+}
+.check_order{
+	font-size:24rpx;
+	color:#333;
+}
+.process{
+	background:#fff;
+	height:136rpx;
+}
+.peocess_item {
+	text-align:center;
+	width:25%;
+}
+.peocess_item image{
+	width:60rpx;
+	height:60rpx;}
+.item_other image{
+	width:50rpx;
+}
+.peocess_item text{display:block;}
+.user_left{
+	align-items:center;
+}
+.user_left image{
+	width:30rpx;
+	height:32rpx;
+	margin-right:12rpx;
+}
+.user_infor{
+	height:96rpx;
+	line-height:96rpx;
+	background:#fff;
+	border-bottom:solid 1px #dcdcdc;
+	align-items:center;
+	}
+.next_page image{
+	width:11rpx;
+	height:20rpx;
+}
+.user_all{
+	margin-top:12rpx;
+}
+#order{
+	position:relative;
+	top:-24rpx;
+	border-radius:30rpx;
+	overflow:hidden;
+}

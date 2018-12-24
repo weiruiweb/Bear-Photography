@@ -1,0 +1,115 @@
+/**index.wxss**/
+
+@import "../../wxParse/wxParse.wxss"
+.manage{
+	height:160rpx;
+	border-bottom:solid 1px #e0e0e0;
+}
+.manage_cont{
+	width:100%;
+	height:120rpx;
+	font-size:34rpx;
+}
+.address_left{
+	width:60%;
+}
+.address_left image{
+	width: 30rpx;
+	height:32rpx;
+	margin-right: 10rpx;
+}
+.infor_left image{
+	width: 30rpx;
+	height:32rpx;
+}
+.user_address {
+	height:50%;
+}
+.address_infor{
+	height:50%;
+}
+.address_right{
+	width:40%;
+	text-align:right;
+}
+.product{
+	border-bottom:solid 1px #e0e0e0;
+}
+.product_box{
+	height:230rpx;
+}
+.product_detail{
+	width:100%;
+	height:140rpx;
+}
+.product_left{
+	width:27.5%;
+	height:156rpx;
+}
+.product_left image{
+	width:156rpx;
+	height:156rpx;
+}
+.product_right{
+	width:72.5%;
+	height:156rpx;
+}
+.product_price{
+	width:100%;
+}
+.test{
+	height:100%;
+	display:flex;
+	flex-flow: row wrap;
+	align-content:space-between;
+}
+.product_price{
+	width:100%;
+	height:50%;
+}
+.product_top{
+	height:40%;
+}
+.submit_info{
+	width:166rpx;
+	height:70rpx;
+	line-height:70rpx;
+	margin:0;
+	float:right;
+	background:#fff;
+	border:solid 1px #e83632;
+	color:#666;
+}
+.infor_left{
+	width:6%;
+}
+.infor_right{
+	width:94%;
+}
+.way_left{
+	width:50%;
+	height:70rpx;
+}
+.way_left image{
+	width:30rpx;
+	height:30rpx;
+	margin-right:10rpx;
+}
+.confirm_btn{
+	height:100rpx;
+	line-height: 100rpx;
+	text-align: center;
+	width:100%;
+	position: fixed;
+	bottom: 0;
+	border-top:solid 1px #e0e0e0;
+}
+.confirm_left{
+	width:60%;
+	padding-right: 10%;
+	text-align: right;
+}
+.confirm_right{
+	width: 30%;
+	height:100%;
+}

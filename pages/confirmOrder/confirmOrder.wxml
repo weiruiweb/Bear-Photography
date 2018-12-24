@@ -1,0 +1,43 @@
+<!--index3.wxml-->
+<view class="manage w710 flex">
+    <view class="manage_cont">
+        <view class="user_address flex color3">
+            <view class="address_left flex">
+                <image src="/images/user_icon1.png"></image>李雷
+            </view>
+            <view class="address_right">
+                1888888888888
+            </view>
+        </view>
+        <view class="address_infor flex">
+            <view class="infor_left flex"><image src="/images/user_icon1.png"></image></view>
+            <view class="infor_right avoidOverflow">陕西省西安市高新大都荟陕西省西安市高新大都荟陕西省西安市高新大都荟</view>
+        </view>
+    </view>
+</view>
+<view class="product">
+    <view class="product_box w710 flexRowBetween">
+        <view class="product_left">
+            <image src="/images/index1.png"></image>
+        </view>
+        <view class="product_right">
+            <view class="product_detail">
+                <view class="font32 color3 product_top">空间+导示</view>
+                <view class="font24 color9">2018-09-09</view>
+                <view class="font30 color6 product_price flex">¥189</view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="choose_way w710 flex">
+    <view class="way_left font28 flex" data-id="0" bindtap="choose">
+        <image src="{{currentId == 0?'/images/select_a.png':'/images/select.png'}}"></image>快递配送
+    </view>
+    <view class="way_left font28 flex"  data-id="1" bindtap="choose">
+        <image src="{{currentId == 1?'/images/select_a.png':'/images/select.png'}}"></image>上门自提
+    </view>
+</view>
+<view class="confirm_btn flex font30">
+   <view class="confirm_left color6">合计:<text class="color5"> ¥1899</text></view> 
+   <view class="confirm_right color1 bg">提交订单</view> 
+</view>

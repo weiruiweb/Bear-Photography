@@ -1,0 +1,37 @@
+<!--manageAddress.wxml-->
+<view class="user_input flexRowBetween w710">
+	<view class="input_note font30">收货人:</view>
+	<input placeholder="请输入收货人"></input>
+</view>
+<view class="user_input flexRowBetween  w710">
+	<view class="input_note font30">手机号码:</view>
+	<input placeholder="请输入手机号码" style="width:450rpx;"></input>
+	<view class="address_right">
+		<text>+86</text>
+		<image src="/images/next_page.jpg"></image>
+	</view>
+	
+</view>
+<view class="user_input flexRowBetween  w710">
+	<view class="input_note font30">所在地区:</view>
+	<picker mode="region" value="{{region}}" custom-item="{{customItem}}" bindchange="bindRegionChange">
+		<view class="flex" style="width:100%;">
+			<view class="font28 region" mode="region">{{region[0]}},{{region[1]}},{{region[2]}}</view>
+			<view class="choose_region"><image src="/images/next_page.jpg"></image></view>
+		</view>
+	</picker>
+</view>
+<view class="user_input flexRowBetween  w710">
+	<view class="input_note font30">详细地址:</view>
+	<input placeholder="如街道，门牌号"></input>
+</view>
+<view class="user_input flexRowBetween  w710">
+	<view class="input_note font30 address_set">设为默认地址</view>
+	<view class="body-view">
+		<switch bindchange="switch2Change"/>
+	</view>
+</view>
+<view class="submit_info" bindtap="backAddress">
+	保存
+</view>
+

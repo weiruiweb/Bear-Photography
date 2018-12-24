@@ -1,0 +1,118 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.2.2",
+	"appid": "wx212611f012b9cf1d",
+	"projectname": "%E7%BB%B4%E5%B0%BC%E7%86%8A%E5%84%BF%E7%AB%A5%E6%91%84%E5%BD%B1",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 12,
+			"list": [
+				{
+					"id": -1,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "分类",
+					"pathName": "pages/index1/index1",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "客户",
+					"pathName": "pages/customer/customer",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "商品",
+					"pathName": "pages/product/product",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/user/user",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "分类",
+					"pathName": "pages/sort/sort",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "客户详情",
+					"pathName": "pages/customerDetail/customerDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "客户详情",
+					"pathName": "pages/customerDetail/customerDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "详情",
+					"pathName": "pages/orderDetail/orderDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的订单",
+					"pathName": "pages/userOrder/userOrder",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的积分",
+					"pathName": "pages/userCredit/userCredit",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的收藏",
+					"pathName": "pages/userCollect/userCollect",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "管理收货地址",
+					"pathName": "pages/userAddress/userAddress"
+				}
+			]
+		}
+	}
+}

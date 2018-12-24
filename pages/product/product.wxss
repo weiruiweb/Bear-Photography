@@ -1,0 +1,57 @@
+/**index.wxss**/
+@import "../../wxParse/wxParse.wxss";
+page{
+	width:100%;
+	min-height:100%;
+	background:#f5f5f5;
+}
+
+/***************menu****************/
+.w600{
+	padding:0 6.6%;
+	width:86.8%;
+}
+.menu{
+	width:100%;
+	height:224rpx;
+}
+.menu_item{
+	width:25%;
+	text-align:center;
+	height:142rpx;
+}
+.menu_item image{
+	width:110rpx;
+	height:92rpx;
+}
+.menu_item view{
+	text-align:center;
+	width:100%;
+}
+.recommend_left{
+	height:424rpx;
+}
+.product_buy{
+	width:100%;
+	height:50rpx;
+}
+.buy_left{
+	width:57%;
+	padding-left:3%;
+	color:#ff414a;
+}
+.buy_right{
+	width:40%;
+}
+.buy_btn{
+	width:100rpx;
+	height:40rpx;
+	line-height:40rpx;
+	color:#ff414a;
+	border:solid 1px #ff414a;
+	background:none;
+}
+.product_name{
+	height:56rpx;
+	line-height:56rpx;
+}

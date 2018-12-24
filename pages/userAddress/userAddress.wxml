@@ -1,0 +1,57 @@
+<!--index2.wxml-->
+
+<view class="manage_cont w690">
+	<view class="user_address flex">
+		<view class="address_left font28 color2">
+			李雷
+		</view>
+		<view class="address_right font26 color2">
+			1888888888888
+		</view>
+	</view>
+	<view class="avoidOverflow address_infor font26 color2">陕西省西安市高新大都荟</view>
+</view>
+<view class="w690 manage_address">
+	<view class="address_handle flex font28">
+		<view class="handle_left flex  {{currentId== 0?'color5':''}}" data-id="0"  bindtap="choose">
+			<image src="{{currentId== 0?'/images/select_a.png':'/images/select.png'}}"></image> 设为默认地址
+		</view>
+		<view class="handle_right flexRowBetween">
+			<view class="edit color4">
+				<image src="/images/edit.jpg"></image> 编辑
+			</view>
+			<view class="edit color4">
+				<image src="/images/del.jpg"></image> 删除
+			</view>
+		</view>
+	</view>
+</view>
+<view class="manage_cont w690">
+	<view class="user_address flex">
+		<view class="address_left font28 color2">
+			李雷
+		</view>
+		<view class="address_right font26 color2">
+			1888888888888
+		</view>
+	</view>
+	<view class="avoidOverflow address_infor font26 color2">陕西省西安市高新大都荟</view>
+</view>
+<view class="w690 manage_address">
+	<view class="address_handle flex font28">
+		<view class="handle_left flex  {{currentId== 1?'color5':''}}" data-id="1"  bindtap="choose">
+			<image src="{{currentId== 1?'/images/select_a.png':'/images/select.png'}}"></image> 设为默认地址
+		</view>
+		<view class="handle_right flexRowBetween">
+			<view class="edit color4">
+				<image src="/images/edit.jpg"></image> 编辑
+			</view>
+			<view class="edit color4">
+				<image src="/images/del.jpg"></image> 删除
+			</view>
+		</view>
+	</view>
+</view>
+<button class="submit_info"  bindtap="intoPath" data-path="/pages/userNewAddress/userNewAddress">添加新地址</button>
+
+

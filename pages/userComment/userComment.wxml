@@ -1,0 +1,27 @@
+<!--login.wxml-->
+<view class="w690">
+  <view class="submit bg1" style="margin:20rpx 0;">
+    <view class="edit   flex">
+      <view class="edit_left">
+        <image src="/images/index.png"></image>
+      </view>
+      <view class="edit_right font24 color2">描述描述描述描述描述描述描述描述</view>
+    </view>
+  </view>
+  <view class="submit bg1" >
+    <view class="w690 submit_cont">
+      <textarea placeholder="评论订单" class="color4 font26"></textarea>
+    </view>
+    <view class="upload w690 flex">
+        <view class="upload_item color2 font24 ">
+          添加照片
+        </view>
+        <view class="upload_item color2 font24 upload_img">
+          <image src="/images/index.png"></image>
+        </view>
+    </view>
+  </view>
+</view>
+<form bindsubmit="submit" report-submit="true">
+  <button form-type="submit" class="submit_info" style="width:60%;margin:140rpx auto 0 auto;height:66rpx;line-height:66rpx;border-radius:0rpx;border-radius:50rpx;">发布</button>
+</form>

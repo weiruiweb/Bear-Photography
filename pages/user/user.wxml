@@ -1,0 +1,123 @@
+<!--index3.wxml-->
+<view class="user_banner flex bg">
+    <view class="user_box flex">
+        <view class="banner_left flex">
+            <view class="" style="text-align:center;width:100%;">
+                <view class="user_img">
+                  <open-data type="userAvatarUrl"></open-data>
+                </view>
+            </view>
+        </view>
+        <view class="banner_right font30 color1">
+            小兵阿黄
+        </view>
+    </view>
+</view>
+<view id="order" class="w690">
+    <view  style="border-radius:20rpx;overflow:hidden;box-shadow:3px 3px 20px #f5f3f0;">
+        <view class="order w690 font30 color3" bindtap="intoPath" data-path="/pages/userOrder/userOrder">
+            <view class="user_order flexRowBetween">
+                <view class="order_left flex">
+                    <view class="my_order">我的订单</view>
+                </view>
+                <view class="check_order flexRowBetween">
+                    <view class="font26">
+                        更多订单
+                    </view>
+                    <image src="/images/next_page.jpg"></image>
+                </view>
+            </view>
+        </view>
+
+        <view class="font30 w690 color3 bg1" style="padding-bottom:40rpx;" >
+            <view class="process flexRowBetween">
+                <view class="peocess_item item_other" bindtap="intoPath" data-path="/pages/userOrder/userOrder">
+                    <image src="/images/order_icon1.png"></image>
+                    <text>待付款</text>
+                </view>
+                <view class="peocess_item" bindtap="intoPath" data-path="/pages/userOrder/userOrder">
+                    <image src="/images/order_icon2.png"></image>
+                    <text>待使用</text>
+                </view>
+                <view class="peocess_item" bindtap="intoPath" data-path="/pages/userOrder/userOrder">
+                    <image src="/images/order_icon3.png"></image>
+                    <text>待评价</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="user_all font30 color3" style="position:relative;top:-20rpx;">
+    <view class="user_infor flexRowBetween w710"  bindtap="intoPath" data-path="/pages/userCredit/userCredit">
+        <view class="user_left flexRowBetween">
+            <image src="/images/user_icon1.png"></image>
+            <text>我的积分</text>
+        </view>
+        <view class="next_page">
+            <image src="/images/next_page.jpg"></image>
+        </view>
+    </view>
+    <view class="user_infor flexRowBetween w710" bindtap="intoPath" data-path="/pages/userCollect/userCollect">
+        <view class="user_left flexRowBetween">
+            <image src="/images/user_icon2.png"></image>
+            <text>我的收藏</text>
+        </view>
+        <view class="next_page">
+            <image src="/images/next_page.jpg"></image>
+        </view>
+    </view>
+    <view class="user_infor flexRowBetween w710" bindtap="intoPath" data-path="/pages/userAddress/userAddress" >
+        <view class="user_left flexRowBetween">
+            <image src="/images/user_icon3.png"></image>
+            <text>地址管理</text>
+        </view>
+        <view class="next_page">
+            <image src="/images/next_page.jpg"></image>
+        </view>
+    </view>
+    <view class="user_infor flexRowBetween w710" bindtap="intoPath" data-path="/pages/userGroup/userGroup"  style="margin-top: 20rpx;">
+        <view class="user_left flexRowBetween">
+            <image src="/images/user_icon4.png"></image>
+            <text>团队管理</text>
+        </view>
+        <view class="next_page">
+            <image src="/images/next_page.jpg"></image>
+        </view>
+    </view>
+    <view class="user_infor flexRowBetween w710" bindtap="intoPath" data-path="/pages/userPoster/userPoster" style="margin-top: 20rpx;">
+        <view class="user_left flexRowBetween">
+            <image src="/images/user_icon5.png"></image>
+            <text>推广海报</text>
+        </view>
+        <view class="next_page">
+            <image src="/images/next_page.jpg"></image>
+        </view>
+    </view>
+</view>
+<view style="width:100%;height:150rpx;"></view>
+<view class="navbar">
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index/index">
+        <view class="nav_img">
+          <image src="/images/navbar1.png"></image>
+        </view>
+        <view class="text">首页</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/customer/customer">
+        <view class="nav_img">
+           <image src="/images/navbar2.png"></image>
+        </view>
+        <view class="text">用户</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/product/product">
+        <view class="nav_img">
+           <image src="/images/navbar3.png"></image>
+        </view>
+        <view class="text">商品</view>
+    </view>
+    <view class="navbar_item">
+        <view class="nav_img">
+            <image src="/images/navbar4-a.png"></image>
+        </view>
+        <view class="text this-text">我的</view>
+    </view>
+</view>

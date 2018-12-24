@@ -1,0 +1,103 @@
+<!--index1.wxml-->
+<view id="shopping"  class="bg1 w690">
+    <view class="shopping_item flex">
+        <view class="flexRowBetween product_cont" style="align-items:center;position: relative;">
+            <view class="select_status" data-index="{{index}}" bindtap='choose'>
+                <image src="{{item.isSelect?'/images/select_a.png':'/images/select.png'}}"></image>
+            </view>
+            <view class="shopping_img">
+                <image src="/images/index.png"></image>
+            </view>
+            <view class="shopping_name">
+                <text class="text1 avoidOverflow">商品名称商品名称商品名称</text>
+                <text class="text2">商品属性</text>
+                <text class="price color">¥8988</text>
+            </view>
+            <view class="edit_number flexRowBetween">
+                <view class="minus" style="font-size:50rpx;line-height:36rpx;" >-</view>
+                <input class="number"/>
+                <view class="add">+</view>
+            </view>
+            <view class="circle {{flayTo==index?'animate':''}}" mode="aspectFill" style="{{flayTo==index?translateStyle:''}}"></view>
+        </view>
+    </view>
+</view>
+<view id="shopping" class="bg1 w690">
+    <view class="shopping_item flex">
+        <view class="flexRowBetween product_cont" style="align-items:center;position: relative;">
+            <view class="select_status" data-index="{{index}}" bindtap='choose'>
+                <image src="{{item.isSelect?'/images/select_a.png':'/images/select.png'}}"></image>
+            </view>
+            <view class="shopping_img">
+                <image src="/images/index.png"></image>
+            </view>
+            <view class="shopping_name">
+                <text class="text1 avoidOverflow">商品名称商品名称商品名称</text>
+                <text class="text2">商品属性</text>
+                <text class="price color">¥8988</text>
+            </view>
+            <view class="edit_number flexRowBetween">
+                <view class="minus" style="font-size:50rpx;line-height:36rpx;" >-</view>
+                <input class="number"/>
+                <view class="add">+</view>
+            </view>
+            <view class="circle {{flayTo==index?'animate':''}}" mode="aspectFill" style="{{flayTo==index?translateStyle:''}}"></view>
+        </view>
+    </view>
+    <view class="total" style="display:flex;">
+        <view class="all_select" style="width:10%;text-align:center;;overflow:hidden;" bindtap="chooseAll">
+            <image src="{{web_isChooseAll?'/images/mall_select_active.jpg':'/images/select.png'}}"></image>
+        </view>
+        <view class="select_c"  style="width:10%;text-align:left;overflow:hidden;" >全选</view>
+        <view class="toalt1"  style="width:30%;text-align:right;overflow:hidden;">
+            合计:
+        </view>
+        <view class="priceNumber color" style="width:20%;text-align:center;overflow:hidden;">
+        ¥8999
+        </view>
+        <view class="" style="align-items:center;width:35%;text-align:center;overflow:hidden;">
+            <view class="submit_shopping bg" style="margin:0rpx auto;">
+                <view class="submit_shopping bg">
+                    <form bindsubmit="pay" report-submit="true">
+                        <button class="bg" form-type="submit">结算(1)</button>
+                    </form>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+
+<view id="shoppingEmpty">
+    <view class="shopping_cart flex" bindtap="intoPathRedi" data-path="/pages/mall/Index/index">
+        <view class="scale2" style="width:104px;height:96px;margin:0 auto;{{img}};background-position: 0px -198px;"></view>
+    </view>
+    <view class="note">空空如也购物车没有任何商品</view>
+    <view class="goShopping" bindtap="intoPathRedi" data-path="/pages/mall/Sort/sort">去逛逛</view>
+</view>
+<view class="navbar">
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index/index">
+        <view class="nav_img">
+          <image src="/images/navbar1.png"></image>
+        </view>
+        <view class="text">首页</view>
+    </view>
+    <view class="navbar_item">
+        <view class="nav_img">
+           <image src="/images/navbar2-a.png"></image>
+        </view>
+        <view class="text this-text">购物车</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/partner/partner">
+        <view class="nav_img">
+           <image src="/images/navbar3.png"></image>
+        </view>
+        <view class="text">合伙人</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/user/user">
+        <view class="nav_img">
+            <image src="/images/navbar4.png"></image>
+        </view>
+        <view class="text">我的</view>
+    </view>
+</view>
+
